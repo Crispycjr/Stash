@@ -1,0 +1,61 @@
+! mountain.xrdb
+
+#define base00 #0f0f0f
+#define base01 #262626
+#define base02 #4c4c4c
+#define base03 #ac8a8c
+#define base04 #c49ea0
+#define base05 #8aac8b
+#define base06 #9ec49f
+#define base07 #aca98a
+#define base08 #c4c19e
+#define base09 #8f8aac
+#define base0A #a39ec4
+#define base0B #ac8aac
+#define base0C #c49ec4
+#define base0D #8aabac
+#define base0E #9ec3c4
+#define base0F #f0f0f0
+
+! Special
+*.foreground:     base0F
+*.background:     base00
+*.cursorColor:    base0F
+
+! Black + Bright Black
+*.color0:         base01
+*.color8:         base02
+
+! Red + Bright Red
+*.color1:         base03
+*.color9:         base04
+
+! Green + Bright Green
+*.color2:         base05
+*.color10:        base06
+
+! Yellow + Bright Yellow
+*.color3:         base07
+*.color11:        base08
+
+! Blue + Bright Blue
+*.color4:         base09
+*.color12:        base0A
+
+! Magenta + Bright Magenta
+*.color5:         base0B
+*.color13:        base0C
+
+! Cyan + Bright Cyan
+*.color6:         base0D
+*.color14:        base0E
+
+! White + Bright White
+*.color7:         base0F
+*.color15:        #f5f5f5
+
+! Special colors for URxvt
+URxvt*background: base00
+URxvt*foreground: base0F
+URxvt*cursorColor: base0F
+

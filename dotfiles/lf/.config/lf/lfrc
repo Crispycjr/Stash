@@ -1,0 +1,270 @@
+# lfrc
+
+# Basic Settings
+
+set shell zsh
+set shellopts '-euy'
+set ifs "\n"
+set filesep "\n"
+set ignorecase true
+set smartcase true
+set scrolloff 6
+set icons true
+set ratios 1:2
+set incsearch true
+set watch true
+set mouse true
+set period 1
+# set info size
+# set info time
+# set hidden true
+# set drawbox
+# set roundbox true
+
+# Preview with ctpv
+
+# set previewer ctpv
+# set cleaner ctpvclear
+# &ctpv -s $id
+# &ctpvquit $id
+
+# Preview with stpv
+
+# set previewer stpv
+# set cleaner stpvimgclr
+# &stpvimg --listen $id
+# cmd on-quit $stpvimg --end $id
+
+# == KEYMAPS ==
+# -------------
+
+# Unmappings
+
+map c
+map f
+map F
+map H
+map L
+map m
+map M
+map S
+map t
+map u
+map ;
+map <c-f>
+map <c-b>
+map <m-1> push
+map <m-2> push
+# map za
+# map zh
+# map zn
+# map zr
+# map zs
+# map zt
+
+# Basic Keymaps
+
+map t touch
+map md mkdir
+map L :link
+map . set hidden!
+map q quit
+map <esc> quit
+map T trash
+map D delete
+map p paste
+map d cut
+map u unselect
+map c clear
+map y copy
+map Y yank-path
+map <enter> open
+map <c-r> reload
+map xe extract
+map xz zip
+map f follow_link
+
+# Sudo
+
+map St sudotouch
+map Smd sudomkdir
+
+# Rename files
+
+map r :rename; cmd-delete-home
+map R :rename; cmd-end; cmd-delete-home
+map i :rename; cmd-home
+map a :rename; cmd-end
+
+# Bulk rename in vidir
+
+map <c-v> $printf '%s\n' "$fx" | vidir -
+
+# Motion
+
+map gk high
+map gj low
+map J push 2j
+map K push 2k
+
+# Bookmarks
+
+map gb cd ~/bin
+map gde cd ~/Desktop
+map gdo cd ~/Documents
+map gdw cd ~/Downloads
+map gm cd ~/Music
+map gp cd ~/Pictures
+map gv cd ~/Videos
+map gr cd ~/Repos
+map gu cd ~/UHaul
+map gs cd ~/Projects/Stash
+map gn cd ~/Documents/notes
+map gc cd ~/.config
+map gl cd ~/.local
+map gT cd ~/.local/share/Trash/files
+map gw cd ~/Pictures/wallpapers
+map g/ cd /
+
+# == COMMANDS ==
+# --------------
+
+# Make files and directories
+
+cmd mkdir ${{
+  printf "mkdir: "
+  read ans
+  mkdir -p $ans
+}}
+
+cmd touch ${{
+  printf "touch: "
+  read ans
+  touch $ans
+}}
+
+# Make files and directories with sudo
+
+cmd sudomkdir ${{
+  printf "mkdir: "
+  read ans
+  sudo mkdir -p $ans
+}}
+
+cmd sudotouch ${{
+  printf "touch: "
+  read ans
+  sudo touch $ans
+}}
+
+# Archive commands
+
+cmd extract ${{
+    set -f
+    atool -x $f
+}}
+
+cmd zip %zip -r "$f" "$f"
+cmd tar %tar cvf "$f.tar" "$f"
+cmd targz %tar cvzf "$f.tar.gz" "$f"
+cmd tarbz2 %tar cjvf "$f.tar.bz2" "$f"
+
+# Trash commands
+
+cmd trash ${{
+  files=$(printf "$fx" | tr '\n' ';')
+  while [ "$files" ]; do
+    file=${files%%;*}
+
+    trash-put "$(basename "$file")"
+    if [ "$files" = "$file" ]; then
+      files=''
+    else
+      files="${files#*;}"
+    fi
+  done
+}}
+
+cmd restore_trash ${{
+  trash-restore
+}}
+
+# Follow symlinks
+
+cmd follow_link %{{
+  lf -remote "send ${id} select '$(readlink $f)'"
+}}
+
+# Create symlinks (soft/hard)
+
+# y (select for copy) and L to paste soft-link
+# d (select for cut) and L to paste hard-link
+
+cmd link %{{
+    set -- $(cat ~/.local/share/lf/files)
+    mode="$1"
+    shift
+    if [ "$#" -lt 1 ]; then
+        lf -remote "send $id echo no files to link"
+        exit 0
+    fi
+    case "$mode" in
+        # symbolically copy mode is indicating a soft link
+        copy) ln -sr -t . -- "$@";;
+        # while a move mode is indicating a hard link
+        move) ln -t . -- "$@";;
+    esac
+    rm ~/.local/share/lf/files
+    lf -remote "send clear"
+}}
+
+# Yank paths into clipboard
+
+cmd yank-dirname $dirname -- "$f" | head -c-1 | xclip -i -selection clipboard
+cmd yank-path $printf '%s' "$fx" | xclip -i -selection clipboard
+cmd yank-basename $basename -a -- $fx | head -c-1 | xclip -i -selection clipboard
+
+cmd yank-basename-without-extension ${{
+    echo "$fx" |
+      xargs -r -d '\n' basename -a |
+      awk -e '{
+        for (i=length($0); i > 0; i--) {
+          if (substr($0, i, 1) == ".") {
+            if (i == 1) print $0
+            else print substr($0, 0, i-1)
+
+            break
+          }
+        }
+
+        if (i == 0)
+          print $0
+      }' |
+      if [ -n "$fs" ]; then cat; else tr -d '\n'; fi |
+      xclip -i -selection clipboard
+}}
+
+# Open in application
+
+cmd open-with-gui &$@ $fx         # opens with a gui application outside lf client
+cmd open-with-cli $$@ $fx         # opens with a cli application inside lf client
+map O push :open-with-gui<space>  # input application
+map o push :open-with-cli<space>  # input application
+
+# fzf jump
+
+cmd fzf_jump ${{
+  res="$(find . -maxdepth 3 | fzf --reverse --header='Jump to location')"
+  if [ -f "$res" ]; then
+    cmd="select"
+  elif [ -d "$res" ]; then
+    cmd="cd"
+  fi
+  lf -remote "send $id $cmd \"$res\""
+}}
+
+# Warn about nested instances
+
+%[ $LF_LEVEL -eq 1 ] || echo "Warning: You're in a nested lf instance!"
+
+

@@ -1,0 +1,113 @@
+# zathurarc
+
+# Settings
+
+set font "JetBrainsMono Nerd Font 10"
+set statusbar-h padding 0
+set statusbar-v padding 0
+set page-padding 0
+set window-title-home-tilde true
+set statusbar-home-tilde true
+set selection-clipboard clipboard
+set selection-notification false
+set adjust-open width
+set guioptions ""
+set adjust-open "best-fit"
+
+# Keymaps
+
+unmap c
+unmap f
+unmap D
+unmap U
+unmap y
+
+map y copy
+map [fullscreen] y copy
+map <C-c> copy
+map [fullscreen] <C-c> copy
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen
+map <C-Tab> toggle_statusbar
+map u scroll half-up
+map U scroll half-up
+map d scroll half-down
+map D scroll half-down
+map H scroll full-up
+map L scroll full-down
+map <C-d> toggle_page_mode
+map p print
+map r reload
+map R rotate
+map K zoom in
+map J zoom out
+map _ zoom out
+map i recolor
+
+map [fullscreen] y copy
+map [fullscreen] <C-c> copy
+map [fullscreen] f toggle_fullscreen
+map [fullscreen] <C-Tab> toggle_statusbar
+map [fullscreen] u scroll half-up
+map [fullscreen] U scroll half-up
+map [fullscreen] d scroll half-down
+map [fullscreen] D scroll half-down
+map [fullscreen] H scroll full-up
+map [fullscreen] L scroll full-down
+map [fullscreen] <C-d> toggle_page_mode
+map [fullscreen] p print
+map [fullscreen] r reload
+map [fullscreen] R rotate
+map [fullscreen] K zoom in
+map [fullscreen] J zoom out
+map [fullscreen] _ zoom out
+map [fullscreen] i recolor
+
+# Recolor book content's color
+
+set recolor                     true
+set recolor-keephue             true      # keep original color
+
+# set recolor-lightcolor          "#1c1c20" # base02
+# set recolor-darkcolor           "#c5c8c6" # base1
+
+# # Light/Default mode settings:
+
+# set notification-error-bg       "#cc6666" # Red
+# set notification-error-fg       "#c5c8c6" # Foreground
+# set notification-warning-bg     "#b5bd68" # Orange
+# set notification-warning-fg     "#282a2e" # Selection
+# set notification-bg             "#1c1c20" # Background
+# set notification-fg             "#c5c8c6" # Foreground
+
+# set completion-bg               "#1c1c20" # Background
+# set completion-fg               "#969896" # Comment
+# set completion-group-bg         "#1c1c20" # Background
+# set completion-group-fg         "#969896" # Comment
+# set completion-highlight-bg     "#282a2e" # Selection
+# set completion-highlight-fg     "#c5c8c6" # Foreground
+
+# set index-bg                    "#1c1c20" # Background
+# set index-fg                    "#c5c8c6" # Foreground
+# set index-active-bg             "#282a2e" # Current Line
+# set index-active-fg             "#c5c8c6" # Foreground
+
+# set inputbar-bg                 "#1c1c20" # Background
+# set inputbar-fg                 "#c5c8c6" # Foreground
+# set statusbar-bg                "#1c1c20" # Background
+# set statusbar-fg                "#c5c8c6" # Foreground
+
+# set highlight-color             "#81a2be" # Orange
+# set highlight-active-color      "#b5bd68" # Pink
+
+# set default-bg                  "#1c1c20" # Background
+# set default-fg                  "#c5c8c6" # Foreground
+
+# set render-loading              true
+# set render-loading-fg           "#1c1c20" # Background
+# set render-loading-bg           "#c5c8c6" # Foreground
+
+# ## Recolor mode settings
+
+# set recolor-lightcolor          "#1c1c20" # Background
+# set recolor-darkcolor           "#c5c8c6" # Foreground

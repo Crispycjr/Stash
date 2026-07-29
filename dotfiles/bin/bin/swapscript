@@ -1,0 +1,8 @@
+#!/bin/bash
+
+swapoff /swapfile
+rm /swapfile
+dd if=/dev/zero of=/swapfile bs=1M count=8192 status=progress
+chmod 600 /swapfile
+mkswap /swapfile
+swapon /swapfile

@@ -1,0 +1,26 @@
+# -*- conf -*-
+# tomorrow-night
+
+[colors-dark]
+foreground=c5c8c6
+background=1d1f21
+
+## Normal/regular colors
+regular0=282a2e  # black
+regular1=cc6666  # red
+regular2=b5bd68  # green
+regular3=f0c674  # yellow
+regular4=81a2be  # blue
+regular5=b294bb  # magenta
+regular6=8abeb7  # cyan
+regular7=c5c8c6  # white
+
+## Bright colors
+bright0=969896   # bright black
+bright1=cc6666   # bright red
+bright2=b5bd68   # bright green
+bright3=f0c674   # bright yellow
+bright4=81a2be   # bright blue
+bright5=b294bb   # bright magenta
+bright6=8abeb7   # bright cyan
+bright7=ffffff   # bright white

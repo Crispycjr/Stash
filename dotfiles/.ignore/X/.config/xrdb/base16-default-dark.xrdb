@@ -1,0 +1,60 @@
+! base16-default-dark.xrdb
+
+#define base00 #181818
+#define base01 #6b6b6b
+#define base02 #ac4242
+#define base03 #c55555
+#define base04 #90a959
+#define base05 #aac474
+#define base06 #f4bf75
+#define base07 #feca88
+#define base08 #6a9fb5
+#define base09 #82b8c8
+#define base0A #aa759f
+#define base0B #c28cb8
+#define base0C #75b5aa
+#define base0D #93d3c3
+#define base0E #d8d8d8
+#define base0F #f8f8f8
+
+! Special
+*.foreground:     base0E
+*.background:     base00
+*.cursorColor:    base0E
+
+! Black + Bright Black
+*.color0:         base00
+*.color8:         base01
+
+! Red + Bright Red
+*.color1:         base02
+*.color9:         base03
+
+! Green + Bright Green
+*.color2:         base04
+*.color10:        base05
+
+! Yellow + Bright Yellow
+*.color3:         base06
+*.color11:        base07
+
+! Blue + Bright Blue
+*.color4:         base08
+*.color12:        base09
+
+! Magenta + Bright Magenta
+*.color5:         base0A
+*.color13:        base0B
+
+! Cyan + Bright Cyan
+*.color6:         base0C
+*.color14:        base0D
+
+! White + Bright White
+*.color7:         base0E
+*.color15:        base0F
+
+! Special colors for URxvt
+URxvt*background: base00
+URxvt*foreground: base0E
+URxvt*cursorColor: base0E

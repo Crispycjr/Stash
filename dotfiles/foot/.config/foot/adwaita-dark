@@ -1,0 +1,50 @@
+# -*- conf -*-
+# tomorrow-night
+
+[colors-dark]
+foreground=c0bfbc
+background=1d1d20
+
+## Normal/regular colors
+
+regular0=1d1d20  # black
+regular1=f66151  # red
+regular2=4e9a06  # green
+regular3=ffa348  # yellow
+regular4=62a0ea  # blue
+regular5=7d8ac7  # magenta
+regular6=5bc8af  # cyan
+regular7=deddda  # white
+
+## Bright colors
+
+bright0=777777   # bright black
+bright1=f66151   # bright red
+bright2=4e9a06   # bright green
+bright3=ffa348   # bright yellow
+bright4=62a0ea   # bright blue
+bright5=7d8ac7   # bright magenta
+bright6=5bc8af   # bright cyan
+bright7=ffffff   # bright white
+
+# Terminal
+
+## Text editor
+
+# #1d1d20 - BG
+# #c0bfbc - FG
+# #f66151 - Red
+# #4e9a06 - Green
+# #ffa348 - Yellow
+# #62a0ea - Blue
+# #7d8ac7 - Purple
+# #5bc8af - Teal
+# #777777 - Comment
+
+# #e66100 - Orange
+# #243c5b - HL
+
+# #deddda - White1
+# #57e389 - Green2
+# #f6f5f4 - White2
+

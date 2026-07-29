@@ -1,0 +1,5 @@
+#!/bin/bash
+
+[ -z "$id" ] && id="$1"
+
+exec ctpv -c "$id"

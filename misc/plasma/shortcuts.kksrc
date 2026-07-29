@@ -1,0 +1,555 @@
+[ActivityManager][Global Shortcuts]
+switch-to-activity-11c84809-ef58-4725-b11e-8f5d203f24bc=
+switch-to-activity-292885bb-4756-4ceb-8c9b-786531248d2c=
+switch-to-activity-dad5b9a0-b930-4ceb-bdf0-27806a97f4b6=
+
+[Custom Commands][net.local.alacritty.desktop]
+Exec=alacritty
+Name=Terminal
+
+[KDE Keyboard Layout Switcher][Global Shortcuts]
+Switch to Last-Used Keyboard Layout=
+Switch to Next Keyboard Layout=
+
+[Shortcuts]
+act_as_admin=Ctrl+Alt+Shift+A
+activate_last_tab=Alt+0
+activate_next_tab=Ctrl+PgDown; Ctrl+]; Ctrl+Tab
+activate_prev_tab=Ctrl+PgUp; Ctrl+[; Ctrl+Shift+Tab
+activate_tab_0=Alt+1
+activate_tab_1=Alt+2
+activate_tab_2=Alt+3
+activate_tab_3=Alt+4
+activate_tab_4=Alt+5
+activate_tab_5=Alt+6
+activate_tab_6=Alt+7
+activate_tab_7=Alt+8
+activate_tab_8=Alt+9
+add_bookmark=Ctrl+B
+add_bookmarks_list=none
+add_to_places=none
+ascending=none
+compact=Ctrl+2
+compare_files=none
+copy_location=Ctrl+Alt+C
+copy_to_inactive_split_view=Shift+F5
+create_dir=Ctrl+Shift+N
+create_file=none
+delete_shortcut=Del
+deletefile=Shift+Del
+descending=none
+details=Ctrl+3
+duplicate=Ctrl+D
+edit_copy=Ctrl+C; Ctrl+Ins
+edit_cut=Ctrl+X
+edit_find=Ctrl+F
+edit_paste=Ctrl+V; Shift+Ins
+edit_redo=Ctrl+Shift+Z
+edit_select_all=Ctrl+A
+edit_undo=Ctrl+Z
+editable_location=F6
+file_close=Ctrl+W; Ctrl+Esc
+file_new=Ctrl+N
+file_quit=Ctrl+Q
+focus_places_panel=Ctrl+P
+focus_terminal_panel=Ctrl+Shift+F4
+folders_first=none
+go_back=Shift+Backspace; Alt+Left; Back
+go_forward=Alt+Right; Forward
+go_home=Alt+Home; Ctrl+Shift+H
+go_up=Backspace
+hamburger_menu=F10
+help_about_app=none
+help_about_kde=none
+help_contents=F1
+help_donate=none
+help_report_bug=none
+help_whats_this=Shift+F1
+hidden_last=none
+icons=Ctrl+1
+invert_selection=Ctrl+Shift+A
+lock_panels=none
+manage_disk_space=none
+move_to_inactive_split_view=Shift+F6
+movetotrash=Del
+new_tab=Ctrl+T
+open_in_new_tab=none
+open_in_new_tabs=none
+open_in_new_window=none
+open_in_split_view=none
+open_kcommand_bar=Ctrl+Alt+I
+open_preferred_search_tool=Ctrl+Shift+F
+open_terminal=Shift+F4
+open_terminal_here=Alt+Shift+F4; Ctrl+.
+options_configure=Ctrl+Shift+,
+options_configure_keybinding=Ctrl+Alt+,
+options_configure_toolbars=none
+options_show_menubar=Ctrl+M
+popout_split_view=Shift+F3
+properties=Alt+Return; Alt+Enter
+renamefile=F2
+replace_location=Ctrl+L; Alt+D
+servicemenu_filelight.desktop::filelight=none
+servicemenu_installfont.desktop::installFont=none
+servicemenu_kleopatra_decryptverifyfiles.desktop::kleodecryptverifyfiles=none
+servicemenu_kleopatra_signencryptfiles.desktop::kleoencryptfiles=none
+servicemenu_kleopatra_signencryptfiles.desktop::kleoencryptsignfiles=none
+servicemenu_kleopatra_signencryptfiles.desktop::kleosignfiles=none
+servicemenu_kleopatra_signencryptfolders.desktop::kleoencryptfolder=none
+servicemenu_kleopatra_signencryptfolders.desktop::kleosignencryptfolder=none
+servicemenu_kompare.desktop::kompare=none
+servicemenu_konsolerun.desktop::runInKonsole=none
+show_accesstime=none
+show_comment=none
+show_creationtime=none
+show_filter_bar=Ctrl+I; /
+show_folders_panel=F7
+show_hidden_files=Ctrl+H; Alt+.
+show_in_groups=none
+show_information_panel=F11
+show_modificationtime=none
+show_places_panel=F9
+show_preview=F12
+show_rating=none
+show_size=none
+show_tags=none
+show_target=none
+show_terminal_panel=F4
+show_type=none
+sort_by_accesstime=none
+sort_by_comment=none
+sort_by_creationtime=none
+sort_by_modificationtime=none
+sort_by_rating=none
+sort_by_size=none
+sort_by_tags=none
+sort_by_text=none
+sort_by_type=none
+split_stash=Ctrl+S
+split_view_menu=F3
+stop=none
+switch_application_language=none
+switch_terminal_url_sync=none
+toggle_filter=none
+toggle_search=none
+toggle_selection_mode=Space
+toggle_selection_mode_tool_bar=none
+undo_close_tab=Ctrl+Shift+T
+url_navigators=none
+view_mode=none
+view_properties=none
+view_redisplay=F5; Refresh
+view_zoom_in=Ctrl++; Ctrl+=
+view_zoom_out=Ctrl+-
+view_zoom_reset=Ctrl+0
+window_color_sheme=none
+
+[brave-browser.desktop][Global Shortcuts]
+_launch=Meta+B
+new-private-window=
+new-window=
+
+[kaccess][Global Shortcuts]
+Toggle Screen Reader On and Off=
+
+[kmix][Global Shortcuts]
+decrease_microphone_volume=Microphone Volume Down
+decrease_volume=Volume Down; Meta+-
+decrease_volume_small=Shift+Volume Down
+increase_microphone_volume=Microphone Volume Up
+increase_volume=Meta+=; Volume Up
+increase_volume_small=Shift+Volume Up
+mic_mute=Meta+Volume Mute; Meta+Shift+O; Microphone Mute
+mute=Volume Mute; Meta+O
+
+[konversation][Global Shortcuts]
+next_active_tab=
+toggle_mainwindow_visibility=
+
+[ksmserver][Global Shortcuts]
+Halt Without Confirmation=
+Lock Session=Meta+Alt+L
+Log Out=Ctrl+Alt+Del
+Log Out Without Confirmation=
+LogOut=
+Reboot=
+Reboot Without Confirmation=
+Shut Down=
+
+[kwin][Global Shortcuts]
+Activate Window Demanding Attention=Meta+Ctrl+A
+Cycle Overview=
+Cycle Overview Opposite=
+Decrease Opacity=
+Edit Tiles=Meta+T
+Expose=Ctrl+F9
+ExposeAll=Launch (C); Ctrl+F10
+ExposeClass=Ctrl+F7
+ExposeClassCurrentDesktop=
+Grid View=Meta+G
+Increase Opacity=
+Invert=Meta+Ctrl+I
+Invert Screen Colors=
+InvertWindow=Meta+Ctrl+U
+Kill Window=Meta+Ctrl+Esc
+KrohnkiteBTreeLayout=
+KrohnkiteColumnsLayout=
+KrohnkiteDecrease=
+KrohnkiteFloatAll=Meta+Shift+F
+KrohnkiteFloatingLayout=
+KrohnkiteFocusDown=
+KrohnkiteFocusLeft=
+KrohnkiteFocusNext=
+KrohnkiteFocusPrev=
+KrohnkiteFocusRight=
+KrohnkiteFocusUp=
+KrohnkiteGrowHeight=
+KrohnkiteIncrease=
+KrohnkiteMonocleLayout=
+KrohnkiteNextLayout=
+KrohnkitePreviousLayout=
+KrohnkiteQuarterLayout=
+KrohnkiteRotate=
+KrohnkiteRotatePart=
+KrohnkiteSetMaster=
+KrohnkiteShiftDown=
+KrohnkiteShiftLeft=
+KrohnkiteShiftRight=
+KrohnkiteShiftUp=
+KrohnkiteShrinkHeight=Meta+Ctrl+K
+KrohnkiteShrinkWidth=Meta+Ctrl+H
+KrohnkiteSpiralLayout=
+KrohnkiteSpreadLayout=
+KrohnkiteStackedLayout=
+KrohnkiteStairLayout=
+KrohnkiteTileLayout=
+KrohnkiteToggleFloat=Meta+F
+KrohnkiteTreeColumnLayout=
+KrohnkitegrowWidth=
+KrohnkitetoggleDock=
+Move Tablet to Next LogicalOutput=
+Move Tablet to Next Output=
+MoveMouseToCenter=Meta+F6
+MoveMouseToFocus=Meta+F5
+MoveZoomDown=
+MoveZoomLeft=
+MoveZoomRight=
+MoveZoomUp=
+Overview=
+Setup Window Shortcut=
+Show Desktop=
+Switch One Desktop Down=Meta+Ctrl+Down
+Switch One Desktop Up=Meta+Ctrl+Up
+Switch One Desktop to the Left=Meta+Ctrl+Left
+Switch One Desktop to the Right=Meta+Ctrl+Right
+Switch Window Down=Meta+Alt+Down; Meta+J
+Switch Window Left=Meta+H; Meta+Alt+Left
+Switch Window Right=Meta+L; Meta+Alt+Right
+Switch Window Up=Meta+Alt+Up; Meta+K
+Switch to Desktop 1=Ctrl+F1
+Switch to Desktop 10=
+Switch to Desktop 11=
+Switch to Desktop 12=
+Switch to Desktop 13=
+Switch to Desktop 14=
+Switch to Desktop 15=
+Switch to Desktop 16=
+Switch to Desktop 17=
+Switch to Desktop 18=
+Switch to Desktop 19=
+Switch to Desktop 2=Ctrl+F2
+Switch to Desktop 20=
+Switch to Desktop 21=
+Switch to Desktop 22=
+Switch to Desktop 23=
+Switch to Desktop 24=
+Switch to Desktop 25=
+Switch to Desktop 3=Ctrl+F3
+Switch to Desktop 4=Ctrl+F4
+Switch to Desktop 5=
+Switch to Desktop 6=
+Switch to Desktop 7=
+Switch to Desktop 8=
+Switch to Desktop 9=
+Switch to Next Desktop=Meta+'
+Switch to Next Screen=
+Switch to Previous Desktop=Meta+;
+Switch to Previous Screen=
+Switch to Screen 0=
+Switch to Screen 1=
+Switch to Screen 2=
+Switch to Screen 3=
+Switch to Screen 4=
+Switch to Screen 5=
+Switch to Screen 6=
+Switch to Screen 7=
+Switch to Screen Above=
+Switch to Screen Below=
+Switch to Screen to the Left=
+Switch to Screen to the Right=
+Toggle Night Color=
+Toggle Window Raise/Lower=
+ToggleMouseClick=Meta+*
+ToggleTileLeft=
+ToggleTileRight=
+Walk Through Windows=Alt+Tab; Meta+Alt+W
+Walk Through Windows (Reverse)=Meta+Alt+Shift+W; Alt+Shift+Tab
+Walk Through Windows Alternative=Meta+W
+Walk Through Windows Alternative (Reverse)=Meta+Shift+W
+Walk Through Windows of Current Application=Alt+`; Meta+`
+Walk Through Windows of Current Application (Reverse)=Meta+~; Alt+~
+Walk Through Windows of Current Application Alternative=
+Walk Through Windows of Current Application Alternative (Reverse)=
+Window Above Other Windows=
+Window Below Other Windows=
+Window Close=Alt+F4; Meta+Q
+Window Custom Quick Tile Bottom=
+Window Custom Quick Tile Left=
+Window Custom Quick Tile Right=
+Window Custom Quick Tile Top=
+Window Fullscreen=Meta+Shift+F; Meta+F11
+Window Grow Horizontal=
+Window Grow Vertical=
+Window Lower=
+Window Maximize=Meta+Z; Meta+PgUp
+Window Maximize Horizontal=
+Window Maximize Vertical=
+Window Minimize=Meta+PgDown; Meta+M
+Window Move=
+Window Move Center=Meta+C
+Window No Border=
+Window On All Desktops=
+Window One Desktop Down=Meta+Ctrl+Shift+Down
+Window One Desktop Up=Meta+Ctrl+Shift+Up
+Window One Desktop to the Left=Meta+Ctrl+Shift+Left
+Window One Desktop to the Right=Meta+Ctrl+Shift+Right
+Window One Screen Down=Meta+Shift+J
+Window One Screen Up=Meta+Shift+K
+Window One Screen to the Left=Meta+Shift+H
+Window One Screen to the Right=Meta+Shift+L
+Window Operations Menu=Alt+F3
+Window Pack Down=
+Window Pack Left=
+Window Pack Right=
+Window Pack Up=
+Window Quick Tile Bottom=Meta+Down
+Window Quick Tile Bottom Left=
+Window Quick Tile Bottom Right=
+Window Quick Tile Left=Meta+[
+Window Quick Tile Right=Meta+]
+Window Quick Tile Top=Meta+Up
+Window Quick Tile Top Left=
+Window Quick Tile Top Right=
+Window Raise=
+Window Resize=
+Window Shade=
+Window Shrink Horizontal=
+Window Shrink Vertical=
+Window to Desktop 1=
+Window to Desktop 10=
+Window to Desktop 11=
+Window to Desktop 12=
+Window to Desktop 13=
+Window to Desktop 14=
+Window to Desktop 15=
+Window to Desktop 16=
+Window to Desktop 17=
+Window to Desktop 18=
+Window to Desktop 19=
+Window to Desktop 2=
+Window to Desktop 20=
+Window to Desktop 21=
+Window to Desktop 22=
+Window to Desktop 23=
+Window to Desktop 24=
+Window to Desktop 25=
+Window to Desktop 3=
+Window to Desktop 4=
+Window to Desktop 5=
+Window to Desktop 6=
+Window to Desktop 7=
+Window to Desktop 8=
+Window to Desktop 9=
+Window to Next Desktop=Meta+"
+Window to Next Screen=Meta+Shift+Right
+Window to Previous Desktop=Meta+:
+Window to Previous Screen=Meta+Shift+Left
+Window to Screen 0=
+Window to Screen 1=
+Window to Screen 2=
+Window to Screen 3=
+Window to Screen 4=
+Window to Screen 5=
+Window to Screen 6=
+Window to Screen 7=
+disableInputCapture=Meta+Shift+Esc
+view_actual_size=Meta+0
+view_zoom_in=
+view_zoom_out=
+
+[mediacontrol][Global Shortcuts]
+mediavolumedown=Meta+Alt+-
+mediavolumeup=Meta+Alt+=
+nextmedia=Meta+>; Media Next
+pausemedia=Media Pause
+playmedia=
+playpausemedia=Meta+P; Media Play
+previousmedia=Media Previous; Meta+<
+seekbackwardmedia=Media Rewind
+seekbackwardmedialong=
+seekforwardmedia=Media Fast Forward
+seekforwardmedialong=
+stopmedia=Media Stop
+
+[net.local.alacritty.desktop][Global Shortcuts]
+_launch=Meta+Return
+
+[org.chromium.Chromium][Global Shortcuts]
+0A126C34FDBDD3D2B28FFEF9DE8CD761-addSite=
+0A126C34FDBDD3D2B28FFEF9DE8CD761-switchEngine=
+0A126C34FDBDD3D2B28FFEF9DE8CD761-toggle=
+3A0FD227A804311B17DF12BAF8C218B9-autofill_card=
+3A0FD227A804311B17DF12BAF8C218B9-autofill_identity=
+3A0FD227A804311B17DF12BAF8C218B9-autofill_login=
+3A0FD227A804311B17DF12BAF8C218B9-generate_password=
+3A0FD227A804311B17DF12BAF8C218B9-lock_vault=
+4B646574AB4CA8331034DBCDBA49D5C9-custom-command-0=
+4B646574AB4CA8331034DBCDBA49D5C9-custom-command-1=
+4B646574AB4CA8331034DBCDBA49D5C9-custom-command-2=
+4B646574AB4CA8331034DBCDBA49D5C9-custom-command-3=
+4B646574AB4CA8331034DBCDBA49D5C9-custom-command-4=
+4B646574AB4CA8331034DBCDBA49D5C9-custom-command-5=
+4B646574AB4CA8331034DBCDBA49D5C9-custom-command-6=
+4B646574AB4CA8331034DBCDBA49D5C9-custom-command-7=
+4B646574AB4CA8331034DBCDBA49D5C9-custom-command-8=
+4B646574AB4CA8331034DBCDBA49D5C9-custom-command-9=
+4B646574AB4CA8331034DBCDBA49D5C9-save-all-tabs=
+4B646574AB4CA8331034DBCDBA49D5C9-save-selected-tabs=
+C49BBA356F3B58B7DA850B8152992E25-createTab=
+C49BBA356F3B58B7DA850B8152992E25-goBack=
+C49BBA356F3B58B7DA850B8152992E25-goForward=
+C49BBA356F3B58B7DA850B8152992E25-previousTab=
+C49BBA356F3B58B7DA850B8152992E25-quickNext=
+C49BBA356F3B58B7DA850B8152992E25-reloadTab=
+C49BBA356F3B58B7DA850B8152992E25-userCustomized1=
+C49BBA356F3B58B7DA850B8152992E25-userCustomized2=
+EABD042E185A652129850D5FBCAA362E-launch-element-picker=
+EABD042E185A652129850D5FBCAA362E-launch-element-zapper=
+EABD042E185A652129850D5FBCAA362E-launch-logger=
+EABD042E185A652129850D5FBCAA362E-open-dashboard=
+EABD042E185A652129850D5FBCAA362E-relax-blocking-mode=
+EABD042E185A652129850D5FBCAA362E-toggle-cosmetic-filtering=
+EABD042E185A652129850D5FBCAA362E-toggle-javascript=
+
+[org.kde.dolphin.desktop][Global Shortcuts]
+_launch=Meta+E
+
+[org.kde.kcalc.desktop][Global Shortcuts]
+_launch=Calculator
+
+[org.kde.konsole.desktop][Global Shortcuts]
+NewTab=
+NewWindow=
+_launch=
+
+[org.kde.krunner.desktop][Global Shortcuts]
+RunClipboard=Alt+Shift+F2
+_launch=Alt+F2; Search
+
+[org.kde.kscreen.desktop][Global Shortcuts]
+ShowOSD=Display
+
+[org.kde.plasma-systemmonitor.desktop][Global Shortcuts]
+_launch=Meta+Esc
+
+[org.kde.plasma.emojier.desktop][Global Shortcuts]
+_launch=Meta+Ctrl+Alt+Shift+Space; Meta+.
+
+[org.kde.spectacle.desktop][Global Shortcuts]
+ActiveWindowScreenShot=Meta+Shift+S; Meta+Print
+CurrentMonitorScreenShot=
+FullScreenScreenShot=Shift+Print
+OpenWithoutScreenshot=
+RecordRegion=Meta+R; Meta+Shift+R
+RecordScreen=Meta+Alt+R
+RecordWindow=Meta+Ctrl+R
+RectangularRegionScreenShot=Meta+Shift+Print
+WindowUnderCursorScreenShot=Meta+Ctrl+Print
+_launch=Print; Meta+S
+
+[org.kde.touchpadshortcuts.desktop][Global Shortcuts]
+DisableTouchpad=Touchpad Off
+EnableTouchpad=Touchpad On
+ToggleTouchpad=Touchpad Toggle; Meta+Ctrl+Zenkaku Hankaku; Meta+Ctrl+Touchpad Toggle
+
+[org_kde_powerdevil][Global Shortcuts]
+Decrease Keyboard Brightness=Keyboard Brightness Down
+Decrease Screen Brightness=Monitor Brightness Down; Meta+_
+Decrease Screen Brightness Small=Shift+Monitor Brightness Down
+Hibernate=Hibernate
+Increase Keyboard Brightness=Keyboard Brightness Up
+Increase Screen Brightness=Monitor Brightness Up; Meta++
+Increase Screen Brightness Small=Shift+Monitor Brightness Up
+PowerDown=Power Down; Meta+X
+PowerOff=Power Off
+Sleep=Sleep
+Toggle Keyboard Backlight=Keyboard Light On/Off
+Turn Off Screen=
+powerProfile=Battery
+
+[plasmashell][Global Shortcuts]
+Slideshow Wallpaper Next Image=
+activate application launcher=Meta+Space; Alt+F1
+activate task manager entry 1=Meta+1
+activate task manager entry 10=
+activate task manager entry 2=Meta+2
+activate task manager entry 3=Meta+3
+activate task manager entry 4=Meta+4
+activate task manager entry 5=Meta+5
+activate task manager entry 6=Meta+6
+activate task manager entry 7=Meta+7
+activate task manager entry 8=Meta+8
+activate task manager entry 9=Meta+9
+activate widget 100=Meta+D
+activate widget 104=
+activate widget 161=Meta+D
+activate widget 18=Meta+N
+activate widget 26=
+activate widget 28=Meta+D
+activate widget 29=Meta+Space
+activate widget 4=
+clear-history=
+clipboard_action=Meta+Ctrl+X
+cycle-panels=Meta+Alt+P
+cycleNextAction=
+cyclePrevAction=
+edit_clipboard=
+manage activities=
+next activity=Meta+A
+previous activity=Meta+Shift+A
+repeat_action=
+show dashboard=Ctrl+F12
+show-barcode=
+show-on-mouse-pos=Meta+V
+stop current activity=
+switch to next activity=
+switch to previous activity=
+toggle do not disturb=
+
+[systemsettings.desktop][Global Shortcuts]
+_launch=Meta+I; Tools
+kcm-kscreen=
+kcm-lookandfeel=
+kcm-powerdevilprofilesconfig=
+kcm-screenlocker=
+kcm-users=
+
+[wacomtablet][Global Shortcuts]
+Map to fullscreen=Meta+Ctrl+F
+Map to screen 1=Meta+Ctrl+1
+Map to screen 2=Meta+Ctrl+2
+Next Profile=Meta+Ctrl+N
+Previous Profile=Meta+Ctrl+P
+Toggle screen map selection=Meta+Ctrl+M
+Toggle stylus mode=Meta+Ctrl+S
+Toggle touch tool=Meta+Ctrl+T

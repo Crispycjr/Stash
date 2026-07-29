@@ -1,0 +1,3 @@
+#!/bin/bash
+
+chafa $HOME/bin/.feline.gif

@@ -1,0 +1,47 @@
+# -*- conf -*-
+# onedark-warmer
+
+[colors-dark]
+foreground=a7aab0
+background=232326
+
+## Normal/regular colors
+regular0=101012  # black
+regular1=d25862  # red
+regular2=8fb573  # green
+regular3=dbb671  # yellow
+regular4=57a5e5  # blue
+regular5=bb70d2  # magenta
+regular6=51a8b3  # cyan
+regular7=a7aab0  # white
+
+## Bright colors
+bright0=5a5b5e   # bright black
+bright1=d25862   # bright red
+bright2=8fb573   # bright green
+bright3=dbb671   # bright yellow
+bright4=57a5e5   # bright blue
+bright5=bb70d2   # bright magenta
+bright6=51a8b3   # bright cyan
+bright7=a7aab0   # bright white
+
+# Example
+
+# #101012  # black
+# #d25862  # red
+# #8fb573  # green
+# #dbb671  # yellow
+# #57a5e5  # blue
+# #bb70d2  # magenta
+# #51a8b3  # cyan
+# #a7aab0  # white
+
+# #5a5b5e   # bright black
+# #d25862   # bright red
+# #8fb573   # bright green
+# #dbb671   # bright yellow
+# #57a5e5   # bright blue
+# #bb70d2   # bright magenta
+# #51a8b3   # bright cyan
+# #a7aab0   # bright white
+

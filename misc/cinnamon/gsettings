@@ -1,0 +1,50 @@
+#/bin/bash
+
+gsettings set com.linuxmint.updates autorefresh-hours 24
+gsettings set com.linuxmint.updates auto-update-cinnamon-spices true
+gsettings set com.linuxmint.updates hide-systray true
+gsettings set org.cinnamon alttab-switcher-delay 0
+gsettings set org.cinnamon alttab-switcher-show-all-workspaces false
+gsettings set org.cinnamon alttab-switcher-style 'icons'
+gsettings set org.cinnamon window-effect-speed 0
+gsettings set org.cinnamon.desktop.interface cursor-theme 'Yaru'
+gsettings set org.cinnamon.desktop.interface font-name 'Adwaita Sans 10'
+gsettings set org.cinnamon.desktop.interface clock-use-24h false
+gsettings set org.cinnamon.desktop.notifications bottom-notifications true
+gsettings set org.cinnamon.desktop.notifications notification-duration '2'
+gsettings set org.cinnamon.desktop.peripherals.keyboard repeat-interval 30
+gsettings set org.cinnamon.desktop.peripherals.keyboard delay 250
+gsettings set org.cinnamon.desktop.peripherals.touchpad natural-scroll true
+gsettings set org.cinnamon.desktop.screensaver floating-widgets false
+gsettings set org.cinnamon.desktop.screensaver font-time 'Adwaita Sans Medium 48'
+gsettings set org.cinnamon.desktop.screensaver lock-delay '60'
+gsettings set org.cinnamon.desktop.screensaver show-album-art false
+gsettings set org.cinnamon.desktop.screensaver show-info-panel false
+gsettings set org.cinnamon.desktop.wm.preferences mouse-button-modifier '<Super>'
+gsettings set org.cinnamon.desktop.wm.preferences titlebar-font 'Adwaita Sans Bold 10'
+gsettings set org.cinnamon.muffin placement-mode 'center'
+gsettings set org.cinnamon.muffin tile-maximize true
+gsettings set org.cinnamon.muffin unredirect-fullscreen-windows true
+gsettings set org.cinnamon.settings-daemon.plugins.color night-light-enabled true
+gsettings set org.cinnamon.settings-daemon.plugins.power idle-brightness '5'
+gsettings set org.cinnamon.settings-daemon.plugins.power idle-dim-time '120'
+gsettings set org.cinnamon.settings-daemon.plugins.power lid-close-ac-action 'blank'
+gsettings set org.cinnamon.settings-daemon.plugins.power sleep-inactive-battery-timeout '3600'
+gsettings set org.cinnamon.settings-daemon.plugins.power sleep-timeout-display '900'
+gsettings set org.cinnamon.sounds tile-enabled false
+gsettings set org.cinnamon.sounds login-enabled false
+gsettings set org.cinnamon.sounds notification-enabled false
+gsettings set org.cinnamon.sounds switch-enabled false
+gsettings set org.gnome.desktop.interface font-name 'Adwaita Sans 10'
+gsettings set org.gnome.desktop.wm.preferences titlebar-font 'Adwaita Sans Bold 10'
+gsettings set org.nemo.desktop font 'Adwaita Sans 10'
+gsettings set org.nemo.desktop trash-icon-visible true
+gsettings set org.nemo.desktop volumes-visible true
+gsettings set org.nemo.preferences executable-text-activation 'display'
+gsettings set org.nemo.preferences quick-renames-with-pause-in-between true
+gsettings set org.nemo.preferences show-computer-icon-toolbar true
+gsettings set org.nemo.preferences show-open-in-terminal-toolbar true
+gsettings set org.nemo.preferences.menu-config selection-menu-duplicate true
+gsettings set org.nemo.preferences.menu-config selection-menu-favorite true
+gsettings set org.nemo.preferences.menu-config selection-menu-make-link true
+gsettings set org.nemo.preferences.menu-config selection-menu-pin true

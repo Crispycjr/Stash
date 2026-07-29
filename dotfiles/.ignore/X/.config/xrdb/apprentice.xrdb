@@ -1,0 +1,61 @@
+! apprentice.xrdb
+
+#define base00 #BCBCBC
+#define base01 #444444
+#define base02 #AF5F5F
+#define base03 #FF8700
+#define base04 #5F875F
+#define base05 #87AF87
+#define base06 #87875F
+#define base07 #FFFFAF
+#define base08 #5F87AF
+#define base09 #87AFD7
+#define base0A #5F5F87
+#define base0B #8787AF
+#define base0C #5F8787
+#define base0D #5FAFAF
+#define base0E #6C6C6C
+#define base0F #FFFFFF
+
+! Special
+*.foreground:     base0E
+*.background:     base00
+*.cursorColor:    base0E
+
+! Black + Bright Black
+*.color0:         base00
+*.color8:         base01
+
+! Red + Bright Red
+*.color1:         base02
+*.color9:         base03
+
+! Green + Bright Green
+*.color2:         base04
+*.color10:        base05
+
+! Yellow + Bright Yellow
+*.color3:         base06
+*.color11:        base07
+
+! Blue + Bright Blue
+*.color4:         base08
+*.color12:        base09
+
+! Magenta + Bright Magenta
+*.color5:         base0A
+*.color13:        base0B
+
+! Cyan + Bright Cyan
+*.color6:         base0C
+*.color14:        base0D
+
+! White + Bright White
+*.color7:         base0E
+*.color15:        base0F
+
+! Special colors for URxvt
+URxvt*background: base00
+URxvt*foreground: base0E
+URxvt*cursorColor:: base0E
+

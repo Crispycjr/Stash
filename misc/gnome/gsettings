@@ -1,0 +1,10 @@
+#!/bin/bash
+
+gsettings set org.gnome.desktop.peripherals.keyboard delay 250
+gsettings set org.gnome.desktop.screensaver lock-delay 60
+gsettings set org.gnome.desktop.wm.preferences audible-bell false
+gsettings set org.gnome.desktop.wm.preferences button-layout 'appmenu:minimize,close'
+gsettings set org.gnome.desktop.wm.preferences resize-with-right-button true
+gsettings set org.freedesktop.ibus.panel.emoji hotkey []
+gsettings set org.gnome.mutter overlay-key ''
+
