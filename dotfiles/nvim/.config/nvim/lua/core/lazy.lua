@@ -19,17 +19,12 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
   spec = {
 
--- {
---   "shaunsingh/nord.nvim",
---   priority = 1000, -- make sure to load this before all the other start plugins
--- },
-
 {
   "navarasu/onedark.nvim",
   priority = 1000, -- make sure to load this before all the other start plugins
   config = function()
     require("onedark").setup {
-      -- style = "darker"
+      style = "warmer"
     }
     require("onedark").load()
   end
@@ -173,7 +168,7 @@ end,},
 
       mapping = cmp.mapping.preset.insert({
         ["<C-Space>"] = cmp.mapping.complete(),
-        ["<S-Tab>"] = cmp.mapping.confirm({ select = true }),
+        ["<S-Enter>"] = cmp.mapping.confirm({ select = true }),
       }),
 
       sources = {

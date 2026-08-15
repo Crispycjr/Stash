@@ -1,6 +1,7 @@
 [ActivityManager][Global Shortcuts]
 switch-to-activity-11c84809-ef58-4725-b11e-8f5d203f24bc=
 switch-to-activity-292885bb-4756-4ceb-8c9b-786531248d2c=
+switch-to-activity-8ecb836a-c938-4520-a743-502d6761e7e9=
 switch-to-activity-dad5b9a0-b930-4ceb-bdf0-27806a97f4b6=
 
 [Custom Commands][net.local.alacritty.desktop]
@@ -149,6 +150,12 @@ _launch=Meta+B
 new-private-window=
 new-window=
 
+[firefox.desktop][Global Shortcuts]
+PrivateBrowsing=
+ProfileManager=
+_launch=Meta+B
+new-window=
+
 [kaccess][Global Shortcuts]
 Toggle Screen Reader On and Off=
 
@@ -157,10 +164,11 @@ decrease_microphone_volume=Microphone Volume Down
 decrease_volume=Volume Down; Meta+-
 decrease_volume_small=Shift+Volume Down
 increase_microphone_volume=Microphone Volume Up
-increase_volume=Meta+=; Volume Up
+increase_volume=Volume Up; Meta+=
 increase_volume_small=Shift+Volume Up
-mic_mute=Meta+Volume Mute; Meta+Shift+O; Microphone Mute
+mic_mute=Meta+Volume Mute; Microphone Mute; Meta+Shift+O
 mute=Volume Mute; Meta+O
+push_to_talk=
 
 [konversation][Global Shortcuts]
 next_active_tab=
@@ -242,10 +250,10 @@ Switch One Desktop Down=Meta+Ctrl+Down
 Switch One Desktop Up=Meta+Ctrl+Up
 Switch One Desktop to the Left=Meta+Ctrl+Left
 Switch One Desktop to the Right=Meta+Ctrl+Right
-Switch Window Down=Meta+Alt+Down; Meta+J
+Switch Window Down=Meta+J; Meta+Alt+Down
 Switch Window Left=Meta+H; Meta+Alt+Left
-Switch Window Right=Meta+L; Meta+Alt+Right
-Switch Window Up=Meta+Alt+Up; Meta+K
+Switch Window Right=Meta+Alt+Right; Meta+L
+Switch Window Up=Meta+K; Meta+Alt+Up
 Switch to Desktop 1=Ctrl+F1
 Switch to Desktop 10=
 Switch to Desktop 11=
@@ -292,29 +300,29 @@ Toggle Window Raise/Lower=
 ToggleMouseClick=Meta+*
 ToggleTileLeft=
 ToggleTileRight=
-Walk Through Windows=Alt+Tab; Meta+Alt+W
-Walk Through Windows (Reverse)=Meta+Alt+Shift+W; Alt+Shift+Tab
+Walk Through Windows=Meta+Alt+W; Alt+Tab
+Walk Through Windows (Reverse)=Alt+Shift+Tab; Meta+Alt+Shift+W
 Walk Through Windows Alternative=Meta+W
 Walk Through Windows Alternative (Reverse)=Meta+Shift+W
-Walk Through Windows of Current Application=Alt+`; Meta+`
+Walk Through Windows of Current Application=Meta+`; Alt+`
 Walk Through Windows of Current Application (Reverse)=Meta+~; Alt+~
 Walk Through Windows of Current Application Alternative=
 Walk Through Windows of Current Application Alternative (Reverse)=
 Window Above Other Windows=
 Window Below Other Windows=
-Window Close=Alt+F4; Meta+Q
+Window Close=Meta+Q; Alt+F4
 Window Custom Quick Tile Bottom=
 Window Custom Quick Tile Left=
 Window Custom Quick Tile Right=
 Window Custom Quick Tile Top=
-Window Fullscreen=Meta+Shift+F; Meta+F11
+Window Fullscreen=Meta+F11; Meta+Shift+F
 Window Grow Horizontal=
 Window Grow Vertical=
 Window Lower=
 Window Maximize=Meta+Z; Meta+PgUp
 Window Maximize Horizontal=
 Window Maximize Vertical=
-Window Minimize=Meta+PgDown; Meta+M
+Window Minimize=Meta+M; Meta+PgDown
 Window Move=
 Window Move Center=Meta+C
 Window No Border=
@@ -342,6 +350,7 @@ Window Quick Tile Top Left=
 Window Quick Tile Top Right=
 Window Raise=
 Window Resize=
+Window Restore=Meta+Backspace
 Window Shade=
 Window Shrink Horizontal=
 Window Shrink Vertical=
@@ -394,7 +403,7 @@ nextmedia=Meta+>; Media Next
 pausemedia=Media Pause
 playmedia=
 playpausemedia=Meta+P; Media Play
-previousmedia=Media Previous; Meta+<
+previousmedia=Meta+<; Media Previous
 seekbackwardmedia=Media Rewind
 seekbackwardmedialong=
 seekforwardmedia=Media Fast Forward
@@ -454,33 +463,37 @@ _launch=
 
 [org.kde.krunner.desktop][Global Shortcuts]
 RunClipboard=Alt+Shift+F2
-_launch=Alt+F2; Search
+_launch=Search; Alt+F2
 
 [org.kde.kscreen.desktop][Global Shortcuts]
 ShowOSD=Display
 
 [org.kde.plasma-systemmonitor.desktop][Global Shortcuts]
 _launch=Meta+Esc
+applications=
+history=
+overview=
+processes=
 
 [org.kde.plasma.emojier.desktop][Global Shortcuts]
 _launch=Meta+Ctrl+Alt+Shift+Space; Meta+.
 
 [org.kde.spectacle.desktop][Global Shortcuts]
-ActiveWindowScreenShot=Meta+Shift+S; Meta+Print
+ActiveWindowScreenShot=Meta+Print; Meta+Shift+S
 CurrentMonitorScreenShot=
 FullScreenScreenShot=Shift+Print
 OpenWithoutScreenshot=
-RecordRegion=Meta+R; Meta+Shift+R
+RecordRegion=Meta+Shift+R; Meta+R
 RecordScreen=Meta+Alt+R
 RecordWindow=Meta+Ctrl+R
 RectangularRegionScreenShot=Meta+Shift+Print
 WindowUnderCursorScreenShot=Meta+Ctrl+Print
-_launch=Print; Meta+S
+_launch=Meta+S; Print
 
 [org.kde.touchpadshortcuts.desktop][Global Shortcuts]
 DisableTouchpad=Touchpad Off
 EnableTouchpad=Touchpad On
-ToggleTouchpad=Touchpad Toggle; Meta+Ctrl+Zenkaku Hankaku; Meta+Ctrl+Touchpad Toggle
+ToggleTouchpad=Meta+Ctrl+Zenkaku Hankaku; Meta+Ctrl+Touchpad Toggle; Touchpad Toggle
 
 [org_kde_powerdevil][Global Shortcuts]
 Decrease Keyboard Brightness=Keyboard Brightness Down
@@ -488,7 +501,7 @@ Decrease Screen Brightness=Monitor Brightness Down; Meta+_
 Decrease Screen Brightness Small=Shift+Monitor Brightness Down
 Hibernate=Hibernate
 Increase Keyboard Brightness=Keyboard Brightness Up
-Increase Screen Brightness=Monitor Brightness Up; Meta++
+Increase Screen Brightness=Meta++; Monitor Brightness Up
 Increase Screen Brightness Small=Shift+Monitor Brightness Up
 PowerDown=Power Down; Meta+X
 PowerOff=Power Off
@@ -499,7 +512,7 @@ powerProfile=Battery
 
 [plasmashell][Global Shortcuts]
 Slideshow Wallpaper Next Image=
-activate application launcher=Meta+Space; Alt+F1
+activate application launcher=Alt+F1; Meta+Space
 activate task manager entry 1=Meta+1
 activate task manager entry 10=
 activate task manager entry 2=Meta+2
@@ -517,7 +530,9 @@ activate widget 18=Meta+N
 activate widget 26=
 activate widget 28=Meta+D
 activate widget 29=Meta+Space
+activate widget 32=Meta+D
 activate widget 4=
+clear history=
 clear-history=
 clipboard_action=Meta+Ctrl+X
 cycle-panels=Meta+Alt+P

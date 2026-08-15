@@ -18,10 +18,10 @@ local function link_highlight_with_bold(target, source)
 end
 
 -- Highlight markdown headers
--- link_highlight_with_bold("markdownH1", "Title")
--- link_highlight_with_bold("markdownH2", "Conditional")
--- link_highlight_with_bold("markdownH3", "String")
--- link_highlight_with_bold("markdownH4", "Constant")
--- link_highlight_with_bold("markdownH5", "Type")
--- link_highlight_with_bold("markdownH6", "Comment")
+link_highlight_with_bold("markdownH1", "Title")
+link_highlight_with_bold("markdownH2", "Conditional")
+link_highlight_with_bold("markdownH3", "String")
+link_highlight_with_bold("markdownH4", "Constant")
+link_highlight_with_bold("markdownH5", "Type")
+link_highlight_with_bold("markdownH6", "Comment")
 

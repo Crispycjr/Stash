@@ -11,6 +11,7 @@ set incsearch
 set hlsearch
 set splitbelow
 set splitright
+set clipboard=unnamedplus
 syntax enable
 
 " == KEYMAPS ==
