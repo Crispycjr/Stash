@@ -27,7 +27,7 @@ HISTORY_IGNORE='(ls|ll|la|cd|cd ..|..|exit|clear|fetch|lf|v|vi|vim|nvim|cava|ncm
 # ALIASES
 # -------
 
-alias sudo='nocorrect sudo -E '     # 'sudo' alias fix
+# alias sudo='nocorrect sudo -E '   # 'sudo' alias fix
 alias cp='cp -i'                    # Confirm before overwriting something
 alias df='df -h'                    # Human-readable sizes
 alias free='free -m'                # Show sizes in MB
@@ -40,7 +40,6 @@ alias ll='ls -AFHhl --color=auto --group-directories-first'
 alias diff='diff --color=auto'
 alias grep='grep --color=auto' egrep='egrep --color=auto' fgrep='fgrep --color=auto'
 alias sedit='sudoedit'
-alias yz='yazi'
 alias ncm='ncmpcpp' ncmp='ncmpcpp'
 alias ytdlp='yt-dlp'
 alias tracert='traceroute'
@@ -48,6 +47,7 @@ alias zypp-remove="zypper packages --unneeded | awk -F'|' 'NR==0 || NR==1 || NR=
 
 # COMMAND ACCOMMODATION
 (( $+commands[bat] )) && alias cat='bat'
+(( $+commands[batcat] )) && alias cat='batcat'
 (( $+commands[eza] )) && alias ls='eza'
 (( $+commands[rg] )) && alias grep='rg'
 (( $+commands[nvim] )) && alias vim='nvim' vi='nvim' v='nvim'
