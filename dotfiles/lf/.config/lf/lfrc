@@ -104,8 +104,8 @@ map <c-v> $printf '%s\n' "$fx" | vidir -
 
 map gk high
 map gj low
-map J push 2j
-map K push 2k
+map J push 3j
+map K push 3k
 
 # Bookmarks
 
@@ -122,7 +122,7 @@ map gs cd ~/Projects/Stash
 map gn cd ~/Documents/notes
 map gc cd ~/.config
 map gl cd ~/.local
-map gT cd ~/.local/share/Trash/files
+map gt cd ~/.local/share/Trash/files
 map gw cd ~/Pictures/wallpapers
 map g/ cd /
 

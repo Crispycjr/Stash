@@ -1,0 +1,65 @@
+[mgr]
+
+prepend_keymap = [
+
+    # --- ACTIONS ---
+    # ---------------
+
+    { on = "<Esc>", run = "quit", desc = "Quit" },
+
+    # { on = "t", run = "shell --block -- read -r -p 'touch: ' name; [ -z \"$name\" ] || touch -- \"$name\"", desc = "Create file" },
+    # { on = "md", run = "shell --block -- read -r -p 'mkdir: ' name; [ -z \"$name\" ] || mkdir -p -- \"$name\"", desc = "Create directory" },
+
+    # { on = "c", run = "escape --select", desc = "Clear selection" },
+    # { on = "u", run = "escape --select", desc = "Unselect files" },
+
+    # { on = "y", run = ["shell -- echo %s | xclip -i -selection clipboard", "yank"], desc = "Yank and copy paths" },
+    # { on = "Y", run = "shell -- printf '%s' %s | xclip -i -selection clipboard", desc = "Copy paths to clipboard" },
+    # { on = "d", run = "yank --cut", desc = "Cut files" },
+    # { on = "p", run = "paste", desc = "Paste files" },
+
+    # { on = "T", run = "shell -- trash-put %s", desc = "Move to trash" },
+    # { on = "D", run = "remove", desc = "Delete permanently" },
+
+    # { on = "<C-r>", run = "refresh", desc = "Reload directory" },
+    # { on = "f", run = "follow", desc = "Follow symlink" },
+
+    # --- Opening files ---
+    # { on = "<Enter>", run = "open", desc = "Open file or directory" },
+    # { on = "O", run = "open --interactive", desc = "Open with..." },
+
+    # --- Rename ---
+    # { on = "r", run = "rename", desc = "Rename" },
+
+    # --- Archive operations ---
+    # { on = "xe", run = "shell --block -- atool -x %h", desc = "Extract archive" },
+    # { on = "xz", run = "shell --block -- zip -r %h.zip %h", desc = "Zip hovered item" },
+
+    # --- MOTION ---
+    # --------------
+
+    { on = "J", run = "arrow 3", desc = "Move down 3" },
+    { on = "K", run = "arrow -3", desc = "Move up 3" },
+
+    # --- BOOKMARKS
+    # -------------
+
+    { on = ["g", "b"], run = "cd ~/bin", desc = "Go to bin" },
+    { on = ["g", "d", "e"], run = "cd ~/Desktop", desc = "Go to Desktop" },
+    { on = ["g", "d", "o"], run = "cd ~/Documents", desc = "Go to Documents" },
+    { on = ["g", "d", "w"], run = "cd ~/Downloads", desc = "Go to Downloads" },
+    { on = ["g", "m"], run = "cd ~/Music", desc = "Go to Music" },
+    { on = ["g", "p"], run = "cd ~/Pictures", desc = "Go to Pictures" },
+    { on = ["g", "v"], run = "cd ~/Videos", desc = "Go to Videos" },
+    { on = ["g", "r"], run = "cd ~/Repos", desc = "Go to Repos" },
+    { on = ["g", "u"], run = "cd ~/UHaul", desc = "Go to UHaul" },
+    { on = ["g", "s"], run = "cd ~/Projects/Stash", desc = "Go to Stash" },
+    { on = ["g", "n"], run = "cd ~/Documents/notes", desc = "Go to notes" },
+    { on = ["g", "c"], run = "cd ~/.config", desc = "Go to config" },
+    { on = ["g", "l"], run = "cd ~/.local", desc = "Go to local" },
+    { on = ["g", "t"], run = "cd ~/.local/share/Trash/files", desc = "Go to trash files" },
+    { on = ["g", "w"], run = "cd ~/Pictures/wallpapers", desc = "Go to wallpapers" },
+    { on = ["g", "/"], run = "cd /", desc = "Go to root" },
+
+]
+

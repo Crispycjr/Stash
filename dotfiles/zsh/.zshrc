@@ -22,7 +22,7 @@ setopt autocd extendedglob nonomatch histignorealldups incappendhistory sharehis
 HISTFILE=$HOME/.zsh_history
 HISTSIZE=100000
 SAVEHIST=100000
-HISTORY_IGNORE='(ls|ll|la|cd|cd ..|..|exit|clear|fetch|lf|v|vi|vim|nvim|cava|ncm|ncmp)'
+HISTORY_IGNORE='(ls|ll|la|cd|cd ..|..|exit|clear|fetch|lf|yazi|yz|v|vi|vim|nvim|cava|ncm|ncmp)'
 
 # ALIASES
 # -------
@@ -43,6 +43,7 @@ alias sedit='sudoedit'
 alias ncm='ncmpcpp' ncmp='ncmpcpp'
 alias ytdlp='yt-dlp'
 alias tracert='traceroute'
+alias yz='yazi'
 alias zypp-remove="zypper packages --unneeded | awk -F'|' 'NR==0 || NR==1 || NR==2 || NR==3 || NR==4 {next} {print $3}' | grep -v Name | sudo xargs zypper -n remove --clean-deps"
 
 # COMMAND ACCOMMODATION
@@ -51,6 +52,7 @@ alias zypp-remove="zypper packages --unneeded | awk -F'|' 'NR==0 || NR==1 || NR=
 (( $+commands[eza] )) && alias ls='eza'
 (( $+commands[rg] )) && alias grep='rg'
 (( $+commands[nvim] )) && alias vim='nvim' vi='nvim' v='nvim'
+(( $+commands[yazi] )) && alias lf='yazi'
 
 # FETCH SYSINFO
 fetch() {

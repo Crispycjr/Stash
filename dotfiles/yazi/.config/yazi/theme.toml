@@ -1,0 +1,36 @@
+[mgr]
+border_symbol = " "
+syntect_theme = "~/.config/bat/themes/vague.tmTheme"
+
+[indicator]
+parent  = { reversed = true }
+current = { reversed = true }
+preview = { underline = true }
+padding = { open = "█", close = "█" }
+
+[status]
+overall   = {}
+sep_left  = { open = "█", close = "█" }
+sep_right = { open = "█", close = "█" }
+
+# [filetype]
+# rules = [
+#     # Directories: bold
+#     { url = "*/", bold = true },
+
+#     # Symbolic links: cyan
+#     { url = "*", is = "link", fg = "cyan" },
+# ]
+
+[filetype]
+rules = [
+    # Directories: bold blue
+    { url = "*/", fg = "blue", bold = true },
+
+#     # Broken symlinks: red
+#     { url = "*", is = "orphan", fg = "red" },
+
+#     # Symlinks: cyan
+#     { url = "*", is = "link", fg = "cyan" },
+
+]
