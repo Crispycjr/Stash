@@ -41,7 +41,6 @@ alias diff='diff --color=auto'
 alias grep='grep --color=auto' egrep='egrep --color=auto' fgrep='fgrep --color=auto'
 alias sedit='sudoedit'
 alias ncm='ncmpcpp' ncmp='ncmpcpp'
-alias ytdlp='yt-dlp'
 alias tracert='traceroute'
 alias yz='yazi'
 alias zypp-remove="zypper packages --unneeded | awk -F'|' 'NR==0 || NR==1 || NR==2 || NR==3 || NR==4 {next} {print $3}' | grep -v Name | sudo xargs zypper -n remove --clean-deps"

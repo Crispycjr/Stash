@@ -1,0 +1,10 @@
+### Crispy's stash of files
+
+dotfiles managed with GNU `stow`
+
+**USAGE:**
+
+```
+    cd dotfiles
+    stow *
+```

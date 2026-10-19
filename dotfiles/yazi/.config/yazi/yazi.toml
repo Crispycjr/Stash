@@ -4,4 +4,6 @@ scrolloff = 6
 show_symlink = false
 mouse_events = []
 
+[confirm]
+quit = false
 

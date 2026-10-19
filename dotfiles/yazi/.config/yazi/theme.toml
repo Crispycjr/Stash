@@ -9,28 +9,20 @@ preview = { underline = true }
 padding = { open = "█", close = "█" }
 
 [status]
-overall   = {}
 sep_left  = { open = "█", close = "█" }
 sep_right = { open = "█", close = "█" }
 
-# [filetype]
-# rules = [
-#     # Directories: bold
-#     { url = "*/", bold = true },
-
-#     # Symbolic links: cyan
-#     { url = "*", is = "link", fg = "cyan" },
-# ]
+[tabs]
+active  = { fg = "white", bold = true }
+inactive  = { fg = "darkgray", bg = "black" }
+sep_inner  = { open = "", close = "" }
+sep_outer = { open = "", close = "" }
 
 [filetype]
 rules = [
     # Directories: bold blue
     { url = "*/", fg = "blue", bold = true },
-
-#     # Broken symlinks: red
-#     { url = "*", is = "orphan", fg = "red" },
-
-#     # Symlinks: cyan
-#     { url = "*", is = "link", fg = "cyan" },
-
+    # Orphan symbolic links
+	{ url = "*", is = "orphan", fg = "red" },
 ]
+
