@@ -48,6 +48,7 @@ export PAGER="less -R"
 export GROFF_NO_SGR=0
 export MANROFFOPT='-c'
 export FZF_DEFAULT_OPTS_FILE="$HOME/.config/fzf/themes/vague"
+# export RIPGREP_CONFIG_PATH="$HOME/.config/ripgrep/ripgreprc"
 
 # Password directory (pass)
 # export PASSWORD_STORE_DIR="$HOME/.local/share/password-store"

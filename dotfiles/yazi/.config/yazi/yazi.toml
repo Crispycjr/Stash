@@ -2,7 +2,7 @@
 ratio = [0, 3, 4]
 scrolloff = 6
 show_symlink = false
-mouse_events = []
+mouse_events = [ ]
 
 [confirm]
 quit = false
