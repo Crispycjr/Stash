@@ -1,0 +1,8 @@
+[Applications][audacious]
+Seen=true
+
+[Applications][discord]
+Seen=true
+
+[Notifications]
+ShowPopupTimeout=false

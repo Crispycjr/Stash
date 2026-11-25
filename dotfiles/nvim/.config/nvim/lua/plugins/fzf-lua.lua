@@ -83,11 +83,11 @@ fzf.setup({
         file_ignore_patterns = ignored_extensions,
     },
 
-    winopts = {
-        preview = {
-            hidden = true,
-        },
-    },
+    -- winopts = {
+    --     preview = {
+    --         hidden = true,
+    --     },
+    -- },
 })
 
 -- Keymaps

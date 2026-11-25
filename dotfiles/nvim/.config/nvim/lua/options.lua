@@ -39,6 +39,10 @@ vim.opt.autoread = true
 -- COMMANDS
 -----------
 
+-- Update ripgrep config file
+vim.env.RIPGREP_CONFIG_PATH =
+    vim.fn.expand("~/.config/ripgrep/nvim")
+
 -- Remove trailing whitespaces before saving
 vim.api.nvim_create_autocmd("BufWritePre", {
   pattern = "*",

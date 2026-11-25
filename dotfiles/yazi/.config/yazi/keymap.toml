@@ -8,10 +8,17 @@ prepend_keymap = [
 { on = "t", run = "tab_create", desc = "Create tab" },
 { on = ["L", "l"], run = "link", desc = "Create symlink" },
 { on = ["L", "h"], run = "hardlink", desc = "Create hard link" },
+{ on = ["L", "h"], run = "hardlink", desc = "Create hard link" },
 { on = "<C-f>", run = "escape --filter", desc = "Clear filter" },
 { on = "<C-/>", run = "escape --find", desc = "Clear find" },
 { on = "<C-r>", run = "refresh", desc = "Reload directory" },
 { on = "<Esc>", run = "quit", desc = "Quit" },
+{ on = "n", run = "create", desc = "Create a file (ends with / for directories)" },
+# { on = "<C-v>", run = 'shell "vidir" --block', desc = "Open vidir" },
+
+# Disabled
+{ on = "a", run = "noop"},
+{ on = "A", run = "noop"},
 
 # Motion
 { on = "J", run = "arrow 3", desc = "Move down 3" },

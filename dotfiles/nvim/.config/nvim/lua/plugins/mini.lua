@@ -24,9 +24,9 @@ starter.setup({
 
     items = {
         { name = "Empty Buffer", action = "enew", section = "" },
-        { name = "Recent Files", action = "FzfLua oldfiles", section = "" },
-        { name = "Find File", action = "FzfLua files", section = "" },
-        { name = "Grep Text", action = "FzfLua live_grep", section = "" },
+        { name = "Recent Files", action = "Pick oldfiles", section = "" },
+        { name = "Find File", action = "Pick files", section = "" },
+        { name = "Grep Text", action = "Pick grep_live", section = "" },
         { name = "Notes", action = "edit $HOME/Documents/notes/.", section = "" },
         { name = "TODO", action = "edit $HOME/Documents/notes/TODO.md", section = "" },
         { name = "Scratch", action = "edit $HOME/Documents/notes/scratch.md", section = "" },
@@ -114,6 +114,46 @@ hipatterns.setup({
     },
 })
 
+-- MINI.PICK
+------------
+
+local pick = require("mini.pick")
+
+pick.setup({
+    options = {
+        use_cache = true,
+    },
+
+    window = {
+        config = {
+            border = "rounded",
+        },
+    },
+
+    mappings = {
+        move_down = "<C-j>",
+        move_up = "<C-k>",
+        -- scroll_down = "<C-d>",
+        -- scroll_up = "<C-u>",
+      },
+})
+
+-- Keymaps
+vim.keymap.set("n", "<leader>F", function()
+    pick.builtin.files()
+end, {
+    desc = "Find Files",
+})
+
+vim.keymap.set("n", "<leader>G", function()
+    pick.builtin.grep_live()
+end, {
+    desc = "Live Grep",
+})
+
+vim.keymap.set("n", "<leader>R", "<cmd>Pick oldfiles<CR>", {
+    desc = "Recent Files",
+})
 
 -- OTHER MINI MODULES
 ---------------------
